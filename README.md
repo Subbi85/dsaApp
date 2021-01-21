@@ -1,5 +1,5 @@
-# dnd
-Ein kleines Projekt für die DnD Runde vom Lutzi Putzi
+# DSA
+Ein kleines Projekt für die DsA Runde vom Lutzi Putzi
 So dann wollen wir mal loslegen:
 
 Also, je nachdem wie hart du einsteigen willst, hab ich dir mal einen Udemy-Kurs bzw. meinen Account samt Login-Daten in die Liste gesetzt.
