@@ -1,4 +1,4 @@
-export const DSAMonths = [
+[
   {
     "irdisch": "Juli",
     "kurz": "Pra",

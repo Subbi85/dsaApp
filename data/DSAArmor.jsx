@@ -1,4 +1,4 @@
-export const Armor = [
+[
 {
 "Name": "Felle",
 "RS": "0",

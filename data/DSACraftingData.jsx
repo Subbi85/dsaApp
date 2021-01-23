@@ -1,4 +1,4 @@
-export const Complexity = [
+[
   {
     "name": "Primitive Gegenstände",
     "description": "lassen sich alleine mit einem Talent erschaffen."
@@ -13,7 +13,7 @@ export const Complexity = [
   }
 ];
 
-export const Quality = [
+[
   {
     "name": "sehr billiges Material",
     "effect": "Änderung um -20 % vom Herstellungspreis und der Strukturpunkte des Gegenstandes",
@@ -41,7 +41,7 @@ export const Quality = [
   }
 ]
 
-export const Costs = [
+ [
   {
     "name": "Neue Herstellung",
     "cost": 25
@@ -52,7 +52,7 @@ export const Costs = [
   }
 ]
 
-export const Crafting = [
+[
   {
     "name": "misc",
     "description": "Gegenstand",
@@ -148,7 +148,7 @@ export const Crafting = [
   }
 ];
 
-export const Intervals = [
+[
   {
     "type": "weapon",
     "intervals": [
@@ -186,7 +186,7 @@ export const Intervals = [
   }
 ];
 
-export const BF = [
+[
   {"name": "Armbrüste", value: 6},
   {"name": "Blasrohre", value: 10},
   {"name": "Bögen", value: 4},
@@ -207,7 +207,7 @@ export const BF = [
   {"name": "Zweihandschwerte", value: 12}
 ];
 
-export const Stability = [
+[
   {"name": "Normale Kleidung", value: 4},
   {"name": "Schwere Kleidung", value: 5},
   {"name": "Stoffrüstung", value: 6},

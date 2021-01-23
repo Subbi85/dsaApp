@@ -1,4 +1,4 @@
-export const DSAChants = [
+[
   {
     "chantclass": "Zeremonien",
     "chantextensions": [

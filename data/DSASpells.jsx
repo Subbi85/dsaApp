@@ -1,4 +1,4 @@
-export const DSASpells = [
+[
   {
     "name": "Zaubermelodie",
     "properties": {
@@ -11807,4 +11807,4 @@ export const DSASpells = [
       }
     ]
   }
-];
+]

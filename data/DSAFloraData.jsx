@@ -1,4 +1,4 @@
-export const Flora = [
+[
   {
     "Name": "Alraune",
     "Publikationen": {

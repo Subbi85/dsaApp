@@ -15,3 +15,4 @@ HTML Snippets
 
 Nützliche Links:
 https://getbootstrap.com/docs/4.3/getting-started/introduction/
+https://github.com/Subbi85/dsaApp/tree/master/data

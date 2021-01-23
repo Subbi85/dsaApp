@@ -1,4 +1,4 @@
-export const CraftingObjects = [
+[
   {"name": "Beil/Handaxt", "complexity": 0, "type": "weapon", "talent": "Metallbearbeitung"},
   {"name": "Dreschflegel", "complexity": 0, "type": "weapon", "talent": "Holzbearbeitung"},
   {"name": "Dschadra", "complexity": 0, "type": "weapon", "talent": "Metallbearbeitung"},

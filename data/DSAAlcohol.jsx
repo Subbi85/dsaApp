@@ -1,4 +1,4 @@
-export const Alcoholica = [
+[
   {
     "effect": [
       "2 Stufen Berauscht",

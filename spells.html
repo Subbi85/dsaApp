@@ -7,6 +7,7 @@
     <!-- Bootstrap CSS / und unser CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <title>DsaApp - Start</title>
   </head>
   <body>
@@ -75,8 +76,28 @@
       <!-- Spells -->
       <div class="row">
         <div class="col-10 notes">
-          <h2>Deine Notizen</h2>
+          <h2>Zauber</h2>
+          <script>
+            "use strict";
+            var xobj = new XMLHttpRequest();
+            xobj.overrideMimeType("application/json");
+            xobj.open('GET', './data/DSASpells.jsx', true);
+            xobj.onreadystatechange = function () {
+              if (xobj.readyState == 4 && xobj.status == "200") {
+                var json = JSON.parse(xobj.responseText);
+                console.log(json);
+                showSpells(json);
+              }
+            };
+            xobj.send(null);  
 
+            function showSpells(data){
+              for (var i=0; i<data.length; i++){
+                document.writeln(i+1+":"+data[i].name+"<br>");
+                document.writeln("Wirkung: <br>"+data[i].properties.Wirkung+"<br>");
+              }
+            }
+          </script>
       </div>
     </div>
 

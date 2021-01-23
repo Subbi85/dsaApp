@@ -1,4 +1,5 @@
-export const DSAChantClasses = {
+[
+{
   "ChantClasses": {
     "Liturgien": {
       "extension": 1,
@@ -47,4 +48,5 @@ export const DSAChantClasses = {
     "allgemein"
   ],
   "link": "http://www.ulisses-regelwiki.de/index.php/"
-};
+}
+]

@@ -200,7 +200,7 @@ export const Fernkampfwaffen = [{
   "Gewicht": "1 Stn",
   "Preis": "100",
   "BF": "4",
-  "VN": "Schild wird bei Parade durchschlagen, wenn 1-3 auf W6 - einfacher Schildbonus auf RS. In Wäldern (Gelände schwierig oder schlechter) zusätzliche Erschwernis von
+  "VN": "Schild wird bei Parade durchschlagen, wenn 1-3 auf W6 - einfacher Schildbonus auf RS. In Wäldern (Gelände schwierig oder schlechter) zusätzliche Erschwernis von"
 },
 {
   "Name": "Diskus",
